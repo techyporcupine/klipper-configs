@@ -19,7 +19,7 @@ Modifications:
 - Klipper
 - Factory Mightyboard mods
 - Custom mount for a barebones Logitech C200 webcam
-- 2 40mm fans on the side for part cooling (TODO: GET PART NUMBER)
+- 2 40mm fans on the side for part cooling (Sunon KDE1204PKB2)
 - 50mm Fan mounted to underside for board cooling (Sunon MF50152V1-1000U-A99)
 - 40mm Fan for Extruder cooling (Sunon MF40202VX-1000U-G99)
 - New 5V regulator (OKI-78SR-5/1.5-W36-C)
