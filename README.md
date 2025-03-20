@@ -23,11 +23,12 @@ Modifications:
 - 50mm Fan mounted to underside for board cooling (Sunon MF50152V1-1000U-A99)
 - 40mm Fan for Extruder cooling (Sunon MF40202VX-1000U-G99)
 - New 5V regulator (OKI-78SR-5/1.5-W36-C)
+- 3D Printed PETG spring-loaded extruder bracket with bearing
 
 ### Klipper HW
 
-Host: Raspberry Pi 3B (1GB of RAM) 
-Host OS: Raspberry Pi OS Lite
-Install Method: KIAUH
-Web UI: Both Fluidd and Mainsail are installed, but I mostly use Fluidd
-Slicer: SuperSlicer
+- Host: HP Laptop Motherboard with Celeron N4000, 4GB RAM
+- Host OS: Debian
+- Install Method: KIAUH
+- Web UI: Both Fluidd and Mainsail are installed, but I mostly use Fluidd
+- Slicer: SuperSlicer
