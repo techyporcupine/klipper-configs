@@ -1,0 +1,37 @@
+[server]
+host = 0.0.0.0
+port = 7126
+klippy_uds_address = /home/printers/printer_Alli_data/comms/klippy.sock
+
+[authorization]
+trusted_clients = 
+	10.0.0.0/8
+	127.0.0.0/8
+	169.254.0.0/16
+	172.16.0.0/12
+	192.168.0.0/16
+	FE80::/10
+	::1/128
+cors_domains = 
+	*.lan
+	*.local
+	*.cb-tech.me
+	*://localhost
+	*://localhost:*
+	*://my.mainsail.xyz
+	*://app.fluidd.xyz
+
+[octoprint_compat]
+
+[history]
+
+[webcam AlliCam]
+icon = 
+enabled = True
+service = mjpegstreamer
+location = printer
+target_fps = 30
+target_fps_idle = 5
+stream_url = https://printer.local.cb-tech.me/webcam2?action=stream
+snapshot_url = /webcam2?action=snapshot
+
